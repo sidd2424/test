@@ -1,0 +1,9 @@
+{
+    "editor.renderWhitespace": "all",
+    "python.pythonPath": "${workspaceFolder}/tpvenv/Scripts/python.exe",
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "[python]": {
+        "editor.tabSize": 4,
+    },
+}

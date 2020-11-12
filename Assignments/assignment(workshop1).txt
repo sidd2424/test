@@ -1,0 +1,48 @@
+1. Remove duplicate from a list and create a tuple and find the minimum and maximum number
+
+2. Given a dictionary get all values from the dictionary and add it in a list but don’t add duplicates
+	speed ={'jan':47, 'feb':52, 'march':47, 'April':44, 'May':52, 'June':53, 'july':54, 'Aug':44, 'Sept':54}
+	
+3. Iterate a given list and Check if a given element already exists in a dictionary as a key’s value if not delete it from the list
+	rollNumber = [47, 64, 69, 37, 76, 83, 95, 97]
+	sampleDict ={'John':47, 'Emma':69, 'Kelly':76, 'Jason':97, 'mike': 21}
+	
+4. Given a two list of equal size create a set such that it shows the element from both lists in the pair
+	First List  [2, 3, 4, 5, 6, 7, 8]
+	Second List  [4, 9, 16, 25, 36, 49, 64]
+	Result is  {(6, 36), (8, 64), (4, 16), (5, 25), (3, 9), (7, 49), (2, 4)}
+	
+5. Given a list iterate it and count the occurrence of each element and create a dictionary to show the count of each element
+	Original list  [11, 45, 8, 11, 23, 45, 23, 45, 89]
+	Printing count of each item   {11: 2, 45: 3, 8: 1, 23: 2, 89: 1}
+	
+	
+Pattern printing:
+a)                  b)              c)
+* * * * *           0 0 0 0 0           0
+* * * * *           1 1 1 1 1           1 0
+* * * * *           0 0 0 0 0           0 1 0
+* * * * *           1 1 1 1 1           1 0 1 0
+* * * * *           0 0 0 0 0           0 1 0 1 0
+
+d)                         	
+01 02 03 04 05
+06 07 08 09 10
+11 12 13 14 15
+16 17 18 19 20
+21 22 23 24 25
+
+e)
+01 02 03 04 05
+05 04 03 02 01
+02 04 06 08 10
+10 08 06 04 02
+03 06 09 12 15
+15 12 09 06 03
+
+f)
+    1
+   1 1
+  1 1 1
+ 1 1 1 1
+1 1 1 1 1
